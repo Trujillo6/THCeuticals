@@ -6,7 +6,6 @@
   background-color: black;
   padding: 20px 20px 500px;
   align-items: center;
-  position: relative; /* Establecer posición relativa en el contenedor */
 }
 .title {
   color: white;

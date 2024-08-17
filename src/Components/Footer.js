@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import face from "../Assets/facebook.svg";
-import insta from "../Assets/instagram.svg";
-import whats from "../Assets/whatsapp.svg";
+import insta from "../Assets/instagram1.svg";
+import whats from "../Assets/whatsapp1.svg";
 
 const Footer = () => {
   return (

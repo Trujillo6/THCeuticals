@@ -1,10 +1,10 @@
 .inicio {
-  height: 100%; /* Cambiado a viewport height para ajustar a la pantalla */
+  height: 90%; /* Cambiado a viewport height para ajustar a la pantalla */
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: black;
-  padding: 20px 20px 50px;
+  padding: 20px 0px 50px;
   align-items: center;
 }
 
