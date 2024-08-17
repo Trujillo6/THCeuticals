@@ -1,0 +1,9 @@
+.alex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #515151;
+  padding: 20px 20px 200px;
+  align-items: center;
+}

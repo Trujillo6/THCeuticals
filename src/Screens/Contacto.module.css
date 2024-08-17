@@ -1,0 +1,55 @@
+.contacto {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #515151;
+  color: white;
+  padding: 20px 20px 200px;
+  align-items: left;
+  position: absolute; /* Establecer posición relativa en el contenedor */
+}
+.contacto p {
+  height: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute; /* Establecer posición absoluta */
+  left: 250px; /* Mover a la derecha */
+  top: 150px; /* Mover hacia abajo */
+}
+.cel p {
+  height: 500px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute; /* Establecer posición absoluta */
+  left: 250px; /* Mover a la derecha */
+  top: 350px; /* Mover hacia abajo */
+}
+
+.title {
+  color: white;
+  top: 90px;
+  font-size: 1.5em;
+  background-color: #2c2c2c;
+  left: 130px; /* Mover el título hacia la izquierda */
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 20px; /* Agregar margen inferior */
+  position: absolute; /* Establecer posición absoluta */
+}
+.logo {
+  height: 1500px;
+  width: 100%;
+  position: absolute; /* Establecer posición absoluta */
+  left: 1250px; /* Mover a la derecha */
+  top: 300px; /* Mover hacia abajo */
+}
+
+.mapa {
+  position: absolute; /* Establecer posición absoluta */
+  left: 150px; /* Mover a la derecha */
+  top: 550px; /* Mover hacia abajo */
+}

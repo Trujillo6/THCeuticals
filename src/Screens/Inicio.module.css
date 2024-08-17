@@ -1,0 +1,64 @@
+.inicio {
+  height: 100%; /* Cambiado a viewport height para ajustar a la pantalla */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 20px 20px 50px;
+  align-items: center;
+}
+
+.afueralogo {
+  margin-top: 50px;
+  background-color: #2c2c2c;
+  width: 500px;
+  height: 500px;
+  border-radius: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el elemento */
+}
+
+.afueralogo img {
+  max-width: -80%; /* Ajustar tamaño del logo dentro del círculo */
+  max-height: -80%;
+}
+
+.logo {
+  width: 400px;
+  height: 400px;
+}
+
+.afueracarro {
+  background-color: #dea85a;
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex; /* Centrar la imagen del carrito */
+  justify-content: center;
+  align-items: center;
+}
+
+.afueracarro img {
+  max-width: -100%; /* Ajustar tamaño del logo dentro del círculo */
+  max-height: -100%;
+}
+
+.carro {
+  width: 100px; /* Ajustar el tamaño del carro */
+  height: auto; /* Mantener la proporción del carro */
+  transition: transform 0.3s ease; /* Suaviza la transición del efecto */
+}
+.carro:hover {
+  transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+}
