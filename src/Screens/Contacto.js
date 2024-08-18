@@ -18,6 +18,7 @@ const Contacto = () => {
       <div className={styles.logo}>
         <img className={styles.logo} src={logo} alt="Logo" />
       </div>
+      <div className={styles.carrito}>CARRITO DE COMPRA</div>
     </div>
   );
 };
