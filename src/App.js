@@ -8,22 +8,25 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Carrito from "./Screens/Carrito";
 import ProductoDetalle from "./Screens/ProductoDetalle";
+import { CartProvider } from "./Screens/CartContext";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/Inicio" element={<Inicio />} />
-        <Route path="/productos" element={<Productos />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="/alex-rios" element={<AlexRios />} />
-        <Route path="/carrito" element={<Carrito />} />
-        <Route path="/producto/:id" element={<ProductoDetalle />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <CartProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/Inicio" element={<Inicio />} />
+          <Route path="/productos" element={<Productos />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/alex-rios" element={<AlexRios />} />
+          <Route path="/carrito" element={<Carrito />} />
+          <Route path="/producto/:id" element={<ProductoDetalle />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </CartProvider>
   );
 }
 

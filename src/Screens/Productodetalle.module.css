@@ -1,4 +1,3 @@
-/* ProductoDetalle.module.css */
 .detalle {
   margin-top: 100px;
   display: flex;
@@ -26,4 +25,33 @@
   font-size: 18px;
   margin-top: 10px;
   text-align: center;
+}
+
+.carrito {
+  font-family: "Inria Serif", serif;
+  font-weight: 550;
+  font-size: 30px;
+  color: black;
+  background-color: #dea85a;
+  width: 350px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 2px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Suaviza la transición del efecto */
+}
+.carrito:hover {
+  transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+}
+
+.mensaje {
+  font-size: 18px;
+  color: green;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.detalle a {
+  text-decoration: none;
 }

@@ -6,7 +6,8 @@
   background-color: black;
   padding: 20px 0px 50px;
   align-items: center;
-  margin-top: 500px;
+  margin-top: 20px;
+  color: white;
 }
 
 .title {
@@ -23,4 +24,83 @@
   position: absolute;
   left: 0px;
   text-align: center;
+}
+.carrito {
+  padding: 20px;
+  padding-bottom: 200px;
+  margin-top: 100px;
+}
+
+.itemCarrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imagen {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.detalles {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.botonEliminar {
+  background-color: #de4c4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.botonEliminar:hover {
+  background-color: #c43b3b;
+}
+
+.carritoVacio {
+  font-family: "Inria Serif", serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  height: 100vh; /* Ocupa toda la altura del viewport */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  margin-top: -170px;
+}
+
+.carritoImg {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+  text-align: center;
+
+  justify-content: center; /* Alinea horizontalmente en el centro */
+  align-items: center; /* Alinea verticalmente en el centro */
+}
+
+.irProductos {
+  font-family: "Inria Serif", serif;
+  background-color: #dea85a;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.irProductos:hover {
+  transform: scale(1.2);
 }
