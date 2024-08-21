@@ -21,7 +21,7 @@ const ProductoDetalle = () => {
       />
       <h1 className={styles.nombre}>{producto.nombre}</h1>
       <p className={styles.descripcion}>{producto.descripcion2}</p>
-      <p className={styles.precio}>Precio: ${producto.precio} mxn</p>
+      <p className={styles.precio}>Precio: ${producto.precio} MXN</p>
     </div>
   );
 };
