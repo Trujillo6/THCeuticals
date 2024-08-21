@@ -36,17 +36,17 @@
   text-align: center;
   width: 700px;
   font-size: 50px;
-  font-weight: 700; /* Establecer posición absoluta */
-  margin-left: 200px; /* Mover hacia la derecha */
-  margin-top: 150px; /* Mover hacia abajo */
+  font-weight: 700;
+  margin-left: 200px;
+  margin-top: 150px;
 }
 
 .cel {
   font-family: "Inria Serif", serif;
-  margin-left: 350px; /* Mover hacia la derecha */
+  margin-left: 350px;
   font-size: 40px;
   font-weight: 550;
-  margin-top: 50px; /* Mover hacia abajo */
+  margin-top: 50px;
 }
 
 .carrito {
@@ -62,4 +62,12 @@
   border-radius: 30px;
   margin-bottom: 20px; /* Agregar margen inferior */
   margin-top: -350px;
+  transition: transform 0.3s ease; /* Suaviza la transición del efecto */
+  text-decoration: none;
+}
+.carrito:hover {
+  transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+}
+.contacto a {
+  text-decoration: none;
 }

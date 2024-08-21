@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Contacto.module.css";
 import logo from "../Assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Contacto = () => {
   return (
@@ -18,7 +19,9 @@ const Contacto = () => {
       <div className={styles.logo}>
         <img className={styles.logo} src={logo} alt="Logo" />
       </div>
-      <div className={styles.carrito}>CARRITO DE COMPRA</div>
+      <Link to="/carrito">
+        <div className={styles.carrito}>CARRITO DE COMPRA</div>
+      </Link>
     </div>
   );
 };

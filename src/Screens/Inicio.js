@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Inicio.module.css";
 import logo from "../Assets/logo.png";
 import carro from "../Assets/Carro_compras.svg";
-import Thceuticals from "./Thceuticals"; // Importa Thceuticals correctamente
+import Thceuticals from "./Thceuticals";
 import { Link } from "react-router-dom";
 
 const Inicio = () => {
@@ -13,7 +13,8 @@ const Inicio = () => {
           <img className={styles.logo} src={logo} alt="Logo" />
         </div>
         <div className={styles.afueracarro}>
-          <Link to="/otra-pagina">
+          {/* Utiliza la ruta configurada en el enrutador */}
+          <Link to="/carrito">
             <img className={styles.carro} src={carro} alt="Carro" />
           </Link>
         </div>

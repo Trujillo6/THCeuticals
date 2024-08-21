@@ -1,21 +1,86 @@
 .productos {
-  height: 100%; /* Cambiado a viewport height para ajustar a la pantalla */
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: black;
-  padding: 20px 20px 500px;
+  padding: 20px;
   align-items: center;
+  padding-bottom: 150px;
+  text-decoration: none;
 }
+
 .title {
+  font-family: "Inria Serif", serif;
+  margin-top: 50px;
   color: white;
-  font-size: 1.5em;
+  font-size: 30px;
   background-color: #2c2c2c;
-  left: 50px; /* Mover el título hacia la izquierda */
-  width: 200px;
+  width: 300px;
   padding: 10px;
+  padding-left: 20%;
+  border-radius: 0 30px 30px 0;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 0px;
   text-align: center;
-  border-radius: 30px;
-  margin-bottom: 20px; /* Agregar margen inferior */
-  position: absolute; /* Establecer posición absoluta */
+  text-decoration: none;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  gap: 30px; /* Espacio entre las tarjetas */
+  width: 100%; /* Asegúrate de que el contenedor ocupa todo el ancho disponible */
+  margin-top: 200px;
+  width: calc(90% - 20px);
+  text-decoration: none;
+}
+
+.tarjeta {
+  background-color: #2c2c2c;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 20px);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+
+  text-decoration: none;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.nombre {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #dea85a;
+  text-decoration: none;
+}
+
+.descripcion {
+  font-size: 14px;
+  color: #dea85a;
+  text-decoration: none;
+}
+.productos a div {
+  text-decoration: none;
+}
+
+.productos a {
+  text-decoration: none;
 }
